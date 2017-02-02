@@ -35,5 +35,6 @@ puts "Total combinations is #{test_red + test_green + test_blue}"
 red_comb = calc_block_comb(50,RED_SIZE)
 green_comb = calc_block_comb(50,GREEN_SIZE)
 blue_comb = calc_block_comb(50,BLUE_SIZE)
+
 puts "Total combinations is #{red_comb + green_comb + blue_comb}"
 
