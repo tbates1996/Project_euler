@@ -9,7 +9,6 @@ end
 
 def factor n
 	factor = []
-
 	for number in 2...Math.sqrt(n)
 		if n % number == 0
 			factor << number
@@ -29,7 +28,8 @@ def prime_factor n
 	prime_factor
 end
 
-
+puts "Prime factors of: 600851475143"
 puts prime_factor(600851475143)
 puts ""
+puts "Prime factors of: 65975"
 puts prime_factor(65975)
